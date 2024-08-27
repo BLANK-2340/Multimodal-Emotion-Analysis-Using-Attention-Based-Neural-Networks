@@ -1,0 +1,12 @@
+pandas
+numpy
+torch==2.1.2
+torchaudio
+torchvision
+transformers
+sentence-transformers
+scikit-learn
+matplotlib
+seaborn
+opencv-python
+librosa==0.10.1
