@@ -82,12 +82,12 @@ By following these steps, you can ensure that all the necessary dependencies and
 
 ## MELD: A Multimodal Multi-Party Dataset for Emotion Recognition in Conversation
 
-![MELD](images/meld1.png)
+![MELD](image/meld1.png)
 
 ### Introduction
 The Multimodal EmotionLines Dataset (MELD) has been created by enhancing and extending the EmotionLines dataset. MELD contains the same dialogue instances available in EmotionLines, but it also encompasses audio and visual modality along with text. MELD has more than 1400 dialogues and 13000 utterances from the Friends TV series. Multiple speakers participated in the dialogues. Each utterance in a dialogue has been labeled by any of these seven emotions -- Anger, Disgust, Sadness, Joy, Neutral, Surprise, and Fear. MELD also has sentiment (positive, negative, and neutral) annotation for each utterance.
 
-![emotion_shift](images/emotion_shift.jpeg)
+![emotion_shift](image/emotion_shift.jpeg)
 
 #### Dataset Statistics
 | Statistics                     | Train | Dev | Test |
@@ -164,13 +164,13 @@ Below are the illustrations of the architecture:
 
 1. **Overall Architecture of the Proposed Multimodal Emotion Analysis**:
    
-![Overall Architecture of the Proposed Multimodal Emotion Analysis](images/overall.jpeg)
+![Overall Architecture of the Proposed Multimodal Emotion Analysis](image/overall.jpeg)
 
 2. **Illustration of Video Frames Feature Extraction**:
    
-![Illustration of Video Frames Feature Extraction](images/video.jpeg)
+![Illustration of Video Frames Feature Extraction](image/video.jpeg)
 
-These images visually depict the data flow and processing steps involved in the system, highlighting the integration of audio, text, and video features for effective emotion analysis.
+These image visually depict the data flow and processing steps involved in the system, highlighting the integration of audio, text, and video features for effective emotion analysis.
 
 ## Output
 
@@ -221,13 +221,13 @@ EmotionAnalysisModel(
 
 The confusion matrix provides insight into the classification performance across different emotion categories. The matrix is visualized using a heatmap:
 
-![Confusion Matrix](images/confusion_matrix.jpeg)
+![Confusion Matrix](image/confusion_matrix.jpeg)
 
 #### ROC Curves and AUC
 
 ROC curves are plotted for each emotion class to evaluate the model's ability to distinguish between different emotions. The AUC values provide a measure of the model's performance:
 
-![ROC Curves](images/roc_curves.jpeg)
+![ROC Curves](image/roc_curves.jpeg)
 
 #### Model Size and Parameters
 
