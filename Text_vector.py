@@ -3,7 +3,7 @@ import pandas as pd
 import torch
 from sentence_transformers import SentenceTransformer
 
-# Define paths
+# Define paths 
 utterances_df_path = r"YOUR_UTTERANCES_DF_PATH"
 output_excel_path = r"YOUR_OUTPUT_EXCEL_PATH"
 
@@ -44,3 +44,5 @@ df = pd.DataFrame(data)
 df.to_excel(output_excel_path, index=False)
 
 print("Text feature extraction and saving to Excel completed.")
+
+# to get V2 vector in dimension 1x512
